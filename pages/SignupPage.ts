@@ -57,18 +57,18 @@ export default class SignupPage {
       {
         name: "access_token",
         value: accessToken,
-        url: config.use?.baseURL
+        url: config.use?.baseURL,
       },
       {
         name: "firstName",
         value: firstName,
-        url: config.use?.baseURL
+        url: config.use?.baseURL,
       },
       {
         name: "userID",
         value: userId,
-        url: config.use?.baseURL
+        url: config.use?.baseURL,
       }
-    ])
+    ]);
   }
 } 
